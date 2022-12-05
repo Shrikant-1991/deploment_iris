@@ -1,0 +1,21 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+    <center>
+
+        <h1> IRIS SPECIES DETECTION </h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+           <b> sepal_length :  <input type="text", name='sepal_length', placeholder="enter value"> <br><br>
+            sepal_width :  <input type="text", name='sepal_width', placeholder="enter value"> <br><br>
+            petal_length :  <input type="text", name='petal_length', placeholder="enter value"> <br><br>
+            petal_width : <input type="text", name='petal_width', placeholder="enter value"> <br><br>
+            <input type="submit" , value='predict!' >
+        </form>
+
+
+        
+    </center>
+
+    </body>
+</html>
